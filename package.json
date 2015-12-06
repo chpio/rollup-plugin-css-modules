@@ -1,0 +1,33 @@
+{
+  "name": "rollup-plugin-css-modules",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "jsnext:main": "index.es2015.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudeti/rollup-plugin-css-modules.git"
+  },
+  "scripts": {
+    "build": "./src/build.js",
+    "prepublish": "./src/build.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sudeti/rollup-plugin-css-modules/issues"
+  },
+  "homepage": "https://github.com/sudeti/rollup-plugin-css-modules#readme",
+  "dependencies": {
+    "babel-runtime": "^5.0.0",
+    "css-modules-loader-core": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.3.15",
+    "babel-core": "^6.3.15",
+    "babel-plugin-transform-async-to-generator": "^6.3.13",
+    "babel-plugin-transform-runtime": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-es2015-node5": "^1.1.1"
+  }
+}
