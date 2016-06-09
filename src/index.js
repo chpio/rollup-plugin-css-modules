@@ -1,6 +1,6 @@
 import CssModules from 'css-modules-loader-core';
 import path from 'path';
-import {readFile} from 'js-utils/fs';
+import {readFile} from 'js-utils-fs';
 
 export default function rollupCssModules() {
 	const cssModules = new CssModules();

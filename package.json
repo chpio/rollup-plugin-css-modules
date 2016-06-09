@@ -19,9 +19,9 @@
   },
   "homepage": "https://github.com/sudeti/rollup-plugin-css-modules#readme",
   "dependencies": {
-    "babel-runtime": "^5.0.0",
+    "babel-runtime": "^6.0.0",
     "css-modules-loader-core": "^1.0.0",
-    "js-utils": "^1.0.1"
+    "js-utils-fs": "^2.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.3.15",
